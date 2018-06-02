@@ -1,0 +1,10 @@
+
+compile: bin
+	find src | grep .java > out.txt 
+	javac -d bin -cp biuoop-1.4.jar @out.txt
+jar:
+	jar cfm ass5game.jar Manifest.mf -C bin .
+run:
+	java -jar ass5game.jar 1 2 3 4
+bin:
+	mkdir bin
