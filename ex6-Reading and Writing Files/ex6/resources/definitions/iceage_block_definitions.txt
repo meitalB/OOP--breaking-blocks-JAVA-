@@ -1,0 +1,10 @@
+
+# default values for blocks
+default height:65 width:65 stroke:color(black) hit_points:3
+
+# block definitions
+bdef symbol:b fill:image(block_images/ice1.jpg) fill-2:image(block_images/ice2.jpg) fill-3:image(block_images/ice1.jpg)
+bdef symbol:n fill:image(block_images/ice3.jpg) fill-2:image(block_images/ice.jpg) fill-3:image(block_images/ice3.jpg)
+
+# spacers definitions
+sdef symbol:* width:20

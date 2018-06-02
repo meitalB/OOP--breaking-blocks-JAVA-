@@ -1,0 +1,52 @@
+# Level 1
+START_LEVEL
+level_name:flowers
+ball_velocities:55,458 55,458 55,458
+background:image(block_images/star.jpg)
+paddle_speed:702
+paddle_width:165
+block_definitions:definitions\flower_block_definitions.txt
+blocks_start_x:320
+blocks_start_y:55
+row_height:85
+num_blocks:1
+START_BLOCKS
+l
+END_BLOCKS
+END_LEVEL
+# Level 2
+START_LEVEL
+level_name:flowers
+ball_velocities:55,458
+background:image(block_images/star.jpg)
+paddle_speed:702
+paddle_width:165
+block_definitions:definitions\stars_block_definitions.txt
+blocks_start_x:320
+blocks_start_y:55
+row_height:85
+num_blocks:4
+START_BLOCKS
+l-l
+-l-l
+END_BLOCKS
+END_LEVEL
+# Level 3
+START_LEVEL
+level_name:flowers
+ball_velocities:55,458 0,458 55,458
+background:image(block_images/vered.jpg)
+paddle_speed:702
+paddle_width:165
+block_definitions:definitions\vered_block_definitions.txt
+blocks_start_x:320
+blocks_start_y:320
+row_height:85
+num_blocks:6
+START_BLOCKS
+ll-l
+ll-l
+END_BLOCKS
+END_LEVEL
+
+

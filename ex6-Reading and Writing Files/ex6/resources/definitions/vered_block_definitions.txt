@@ -1,0 +1,16 @@
+# default values for blocks
+
+default height:30 width:48 stroke:color(black)
+
+
+# block definitions
+
+bdef symbol:l hit_points:1 fill:color(blue)
+bdef symbol:l hit_points:1 fill:color(blue)
+bdef symbol:l hit_points:1 fill:color(blue)
+bdef symbol:l hit_points:1 fill:color(blue)
+bdef symbol:l hit_points:1 fill:color(blue)
+bdef symbol:l hit_points:1 fill:color(blue)
+# spacers definitions
+
+sdef symbol:- width:45
