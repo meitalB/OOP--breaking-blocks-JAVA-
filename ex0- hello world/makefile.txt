@@ -1,0 +1,11 @@
+# Chen Eliyahou Meital Birka
+
+# 312490675 , 311124283
+
+compile: bin
+	javac -cp src -d bin src/HelloWorld.java
+
+run1:	
+       
+bin:
+	mkdir bin
